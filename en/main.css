@@ -1,0 +1,106 @@
+@font-face {
+    font-family: roboto-medium; 
+    font-style: normal;
+    src: url("Roboto-Medium.ttf"); 
+}
+
+@font-face {
+    font-family: roboto-thin; 
+    font-style: normal; 
+    src: url("Roboto-Thin.ttf"); 
+}
+
+body {
+    width: 980px;
+    margin: auto;
+    padding: 60px;
+    font-family: roboto-thin, sans-serif, Arial;
+    font-weight: 100;
+    font-size: 27px;
+    line-height: 39px;
+}
+
+.zh-cn {
+    font-family: SimHei, SimSun;
+    font-size:23px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-family: roboto-thin;
+    font-weight: bold;
+}
+a:visited { color: blue; }
+a:hover { color: orange; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+h1 {
+    font-family: roboto-medium;
+    font-weight: 250;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 50px;
+    line-height: 9px;
+}
+
+h2 {
+    margin: 36px 0 18px 0;
+    font-family: roboto-medium;
+    font-weight: 200;
+    font-size: 30px;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+
+p, li {
+    font-family: roboto-thin;
+    margin: 9px 20px 9px 54px;
+}
+
+.sublist{
+    margin: 9px 20px 9px 85px;
+}
+.comment{
+    color: green;
+	line-height: 19px;
+	font-size:19px;
+}
+
+.commentsign{
+    margin: 36px 0 18px 0;
+}
+
+.links{
+    display: inline-block;
+    width: 160px;
+}
+@media only screen and (max-device-width: 480px) {
+    html {
+        width: 100%;
+    }
+
+    body {
+        width: auto;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .sublist{
+    margin: 9px 8px 9px 30px;
+    }
+    .links{
+    display: inline-block;
+    width: 100px;
+    }
+    .hidemobi{
+    display: none;
+    }
+    p, li {
+        margin: 9px 8px 9px 16px;
+    }
+}
