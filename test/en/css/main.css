@@ -78,7 +78,7 @@ header{
 #mainNav li > a{
 	color:#999;
 	display:inline-block;
-	padding:11px 10px 10px 142px;
+	padding:11px 10px 10px 130px;
 	background-repeat:no-repeat;
 	font-family: "Signika";
 	font-weight:300;
@@ -103,8 +103,8 @@ header{
 
 }
 
-#mainNav li a.tab-blog{
-	background-image: url(../images/blog-ico.png);
+#mainNav li a.tab-other{
+	background-image: url(../images/other-ico.png);
 	background-position: 14px 7px;
 
 }
@@ -136,8 +136,8 @@ header{
 	
 }
 
-#mainNav li.active .tab-blog{
-	background-image: url(../images/blog-ico-active.png);
+#mainNav li.active .tab-other{
+	background-image: url(../images/other-ico-active.png);
 	background-position: 14px 7px;
 	color:#5353CD;
 	
@@ -302,6 +302,7 @@ ul#socials  li.vm:hover{background: url(../images/social-sprite.png) no-repeat -
 	border-left:3px solid #cccccc;
 }
 
+
 #introduction ul li span{
 	font-weight:bold;
 }
@@ -321,7 +322,44 @@ ul#socials  li.vm:hover{background: url(../images/social-sprite.png) no-repeat -
 
 }
 
+#skills h1{
+	font-family: "Signika";
+	font-weight:400;
+	font-size:18px;
+	color:#5353CD;
+	margin:0 0 10px 0;
+	padding:0;
 
+}
+
+#milestones h1{
+	font-family: "Signika";
+	font-weight:400;
+	font-size:18px;
+	color:#5353CD;
+	margin:0 0 10px 0;
+	padding:0;
+
+}
+
+#links h1{
+	font-family: "Signika";
+	font-weight:400;
+	font-size:18px;
+	color:#5353CD;
+	margin:0 0 10px 0;
+	padding:0;
+
+}
+#other h1{
+	font-family: "Signika";
+	font-weight:400;
+	font-size:18px;
+	color:#5353CD;
+	margin:0 0 10px 0;
+	padding:0;
+
+}
 #about h4{
 	font-size:12px;
 	color:#666;
@@ -336,62 +374,11 @@ ul#socials  li.vm:hover{background: url(../images/social-sprite.png) no-repeat -
 	font-style:italic;
 }
 
-#skills, #introduction, #experience{
+#introduction {
 	padding-bottom:10px;
 	margin-bottom:10px;
 	border-bottom:1px dotted #e3e2e2;
 }
-
-#education{
-	margin-bottom:20px;
-}
-
-
-
-#skills1, #skills2 {
-    float: left;
-    margin-right: 74px;
-    width: 165px;
-}
-
-#skills ul  {
-	float:left;
-	width:237px;
-}
-
-#skills ul + ul {
-	margin-left:4px;
-}
-
-#skills  li {
-	color:#666;
-	font-size:12px;
-	font-weight:bold;
-	padding-bottom:3px;
-	float:left;
-	width:200px;
-	
-}
-
-#skills  li span {
-	float:right;
-	width:113px;
-	height:17px;
-}
-
-#skills  li span.r1{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
-#skills  li span.r2{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r3{background: url(../images/rating-sprite.png) no-repeat scroll 0 -36px}
-#skills  li span.r4{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
-#skills  li span.r5{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
-
-#skills  li span.r6{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
-#skills  li span.r7{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r8{background: url(../images/rating-sprite.png) no-repeat scroll 0 -36px}
-#skills  li span.r9{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r10{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
-
-
 
 
 a.vcardButton {
@@ -1249,7 +1236,6 @@ top:200px;
 /*About tab */
 #about{width:464px;}
 #introduction ul li {padding: 6px 38px 5px 10px;}
-#skills1, #skills2 {margin-right: 66px;}
 a.vcardButton{margin-left:300px;}
 
 
@@ -1298,8 +1284,6 @@ header{width:195px;}
 
 /*About tab */
 #about{width:196px;}
-#skills1{margin-bottom: 10px;}
-#skills li span {width: 125px;}
 a.vcardButton{margin-left:36px;}
 .info {margin-right: 3px;}
 
@@ -1375,7 +1359,6 @@ header{width:270px;}
 /*About tab */
 #about{width:230px;}
 .info {margin-right:23px;}
-#skills1{margin-bottom: 10px;}
 a.vcardButton{margin-left:70px;}
 
 /*Portfolio tab */
