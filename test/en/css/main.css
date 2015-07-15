@@ -108,12 +108,13 @@ header{
 	background-position: 14px 7px;
 
 }
-
-#mainNav li a.tab-contact{
-	background-image: url(../images/contact-ico.png);
+#mainNav li a.tab-milestones{
+	background-image: url(../images/timeline-ico.png);
 	background-position: 14px 7px;
 
 }
+
+
 #mainNav li.active{
 	border-right: 5px solid #5353CD;
 	background:#fff  url(../images/nav-arrow-active.png) no-repeat 102% center;
@@ -124,6 +125,13 @@ header{
 
 #mainNav li.active .tab-about{
 	background-image: url(../images/about-ico-active.png);
+	background-position: 14px 7px;
+	color:#5353CD;
+	
+}
+
+#mainNav li.active .tab-milestones{
+	background-image: url(../images/timeline-ico-active.png);
 	background-position: 14px 7px;
 	color:#5353CD;
 	
