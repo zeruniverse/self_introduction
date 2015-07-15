@@ -109,11 +109,25 @@ header{
 
 }
 #mainNav li a.tab-milestones{
+	background-image: url(../images/milestone-ico.png);
+	background-position: 14px 7px;
+
+}
+#mainNav li a.tab-experience{
 	background-image: url(../images/timeline-ico.png);
 	background-position: 14px 7px;
 
 }
+#mainNav li a.tab-skills{
+	background-image: url(../images/ability-ico.png);
+	background-position: 14px 7px;
 
+}
+#mainNav li a.tab-links{
+	background-image: url(../images/links-ico.png);
+	background-position: 14px 7px;
+
+}
 
 #mainNav li.active{
 	border-right: 5px solid #5353CD;
@@ -131,28 +145,37 @@ header{
 }
 
 #mainNav li.active .tab-milestones{
+	background-image: url(../images/milestone-ico-active.png);
+	background-position: 14px 7px;
+	color:#5353CD;
+	
+}
+#mainNav li.active .tab-experience{
 	background-image: url(../images/timeline-ico-active.png);
 	background-position: 14px 7px;
 	color:#5353CD;
 	
 }
-
-#mainNav li.active .tab-portfolio{
-	background-image: url(../images/folio-ico-active.png);
+#mainNav li.active .tab-skills{
+	background-image: url(../images/ability-ico-active.png);
 	background-position: 14px 7px;
 	color:#5353CD;
 	
+}
+#mainNav li.active .tab-links{
+	background-image: url(../images/links-ico-active.png);
+	background-position: 14px 7px;
+	color:#5353CD;
+	
+}
+#mainNav li.active .tab-portfolio{
+	background-image: url(../images/folio-ico-active.png);
+	background-position: 14px 7px;
+	color:#5353CD;	
 }
 
 #mainNav li.active .tab-other{
 	background-image: url(../images/other-ico-active.png);
-	background-position: 14px 7px;
-	color:#5353CD;
-	
-}
-
-#mainNav li.active .tab-contact{
-	background-image: url(../images/contact-ico-active.png);
 	background-position: 14px 7px;
 	color:#5353CD;
 	
