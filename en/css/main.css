@@ -34,7 +34,7 @@ html {
 
 
 body{
-	background:url(../images/pattern/pattern1.png) repeat ;
+	background:url(../images/pattern1.png) repeat ;
 	font:100% Arial,'Signika';
 	line-height:20px;
 	font-weight:normal;
@@ -270,45 +270,6 @@ header{
 }
 
 
-
-footer p{
-	color:#ccc;
-	font-size:11px;
-	margin-top:5px;
-	margin-left: 400px;
-}
-
-ul#socials {
-    height: 62px;
-    margin-left: 425px;
-    width: 200px;
-	margin-top:5px;
-	height:40px;
-}
-
-ul#socials li  {
-  	display:inline-block;
-	width:31px;
-	height:31px;
-	padding-left:5px;
-}
-
-
-ul#socials  li.fb{background: url(../images/social-sprite.png) no-repeat 0 0;}
-ul#socials  li.tw{background: url(../images/social-sprite.png) no-repeat -36px 0;}
-ul#socials  li.li{background: url(../images/social-sprite.png) no-repeat -72px 0;}
-ul#socials  li.vm{background: url(../images/social-sprite.png) no-repeat -108px 0;}
-
-ul#socials li.fb , ul#socials li.tw , ul#socials li.li, ul#socials  li.vm{
--webkit-transition: background-position .3s ease-in-out;
--moz-transition: background-position .3s ease-in-out;
--o-transition: background-position .3s ease-in-out;
-transition: background-position .3s ease-in-out;
-}
-ul#socials  li.fb:hover{background: url(../images/social-sprite.png) no-repeat 0 -31px;}
-ul#socials  li.tw:hover{background: url(../images/social-sprite.png) no-repeat -36px -31px;}
-ul#socials  li.li:hover{background: url(../images/social-sprite.png) no-repeat -72px -31px;}
-ul#socials  li.vm:hover{background: url(../images/social-sprite.png) no-repeat -108px -31px;}
 
 
 /* End general style */ 

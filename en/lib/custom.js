@@ -31,7 +31,7 @@ $(document).ready(function(){
 	
 //--------------------------------- Initilaizing fancybox for the clicked elements of the portfolio --------------------------------//
 	
-	$('.portfolio a.folio').fancybox({
+	$('.portfolio a.folio, .fancyboxx').fancybox({
 					'overlayShow'	: true,
 					'opacity'		: true,
 					'transitionIn'	: 'elastic',
