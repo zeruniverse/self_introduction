@@ -9,9 +9,17 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 	list-style:none;
 	
 }
-
+.sublist
+{
+margin:9px 20px 9px 85px;
+}
 a,a:active,a:hover {outline: none;}
 
+a, a:visited
+{
+color:blue;
+}
+a:hover { color: orange; }
 /*html5 display rule*/
 address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
 	display: block;
@@ -491,7 +499,7 @@ a.vcardButton:hover{
 }
 
 ul#category{
-	padding-left: 59px;
+	padding-left: 88px;
 	border-bottom:1px dotted #e3e2e2;
 	position:relative;
 }

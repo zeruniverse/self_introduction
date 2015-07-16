@@ -17,7 +17,6 @@
 <script src="lib/jquery.poshytip.min.js" type="text/javascript"></script>
 <script src="lib/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
 <script src="lib/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
-<script src="lib/jquery.gmap.min.js" type="text/javascript"></script>
 <script src="lib/jquery.validate.js" type="text/javascript"></script>
 <script src="lib/custom.js" type="text/javascript"></script>
 
@@ -175,36 +174,69 @@ $('#myphoto').attr('src','images/img.png');
 			<!--Portfolio Tab-->
 		<article id="portfolio" class="clearfix"> 
 			<!-- Introduction -->
-					<h1>/ My Project</h1>
-					<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					<h1>/ Portfolio</h1>
+                    <div id="projectlist" style="display:none;">
+        <p>Personal & Open Source Project</p>
+        <ul style="list-style-type:disc;">
+        <li class="sublist"><a href="https://github.com/zeruniverse/QQParking">QQParking</a> (Python): A chatting robot on QQ</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/QQRobot">QQRobot</a> (Python): Similar to above one but support group chatting</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/GnomeQQ">GnomeQQ</a> (Python, still working on): An unofficial QQ client in Gnome</li>
+        <li class="sublist"><a href="http://pw.zzeyu.com/">Password Manager</a> (PHP/JavaScript): Generate random password and keep it safe</li>
+        <li class="sublist"><a href="http://talk.zzeyu.com/">Talk</a> (PHP/JavaScript): For secure communication, client-side encryption and decryption are applied</li>
+        <li class="sublist"><a href="http://box.zzeyu.com/">BOX</a> (PHP): Simply sharing files without any accounts</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/semitransparent-wordpress-theme">Transparent theme for WordPress</a> (CSS3)</li>
+        </ul>
+        <p>Research/Work Project</p>
+        <ul style="list-style-type:disc;">
+        <li class="sublist">Company Management System (Finished): Help manage the whole company (such as sell, salary, human resources...)</li>
+        <li class="sublist">SFU Used Books (Currently Working On): Sell/Buy used books</li>
+        <li class="sublist">Reinforcement Learning on NHL Data (Currently Working On): Predict the game result based on learning</li>
+        </ul>
+        <p>Course Project</p>
+        <ul style="list-style-type:disc;">
+        <li class="sublist"><a href="https://github.com/zeruniverse/Gesture_Recognition">Gesture Recognition</a> (MFC/OpenCV): Play "Rock, Scissors and Paper" with computer</li>
+        <li class="sublist">Sensor Network (C/Embedded): collect environment data from sensor and display them on website.</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/generator_consumer_simulation">MultiThreading</a> (C/Linux): Simulate generator and consumer problem</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/EvilCastle_Console-Game">Evil Castle</a> (C++/VC++): A game</li>
+        <li class="sublist">Magic TD (C++/VC++/Cocos 2d): A tower defence game with GUI</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/tc_scientific_calculator">Scientific Calculator</a> (C): Implement GUI with C (Intel 8086)</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/pipelined_CPU">Pipelined CPU</a> (Verilog): Implement Pipelined CPU in hardware level</li>
+        <li class="sublist"><a href="https://github.com/zeruniverse/LibraryManageSystem-Web">Library Management System</a> (PHP/MySQL): Web based library management system</li>  
+        </ul>
+        </div>
+					<p>Here're some selected projects I completed. Source code for some of them are accessible on my <a href="https://github.com/zeruniverse">GitHub</a> account. You can also <span class="portfolio"><a class="folio" href="#projectlist">click here</a></span> to see a list of my projects</p> 
 					<!-- End introduction --> 
 					          
 					
 						<!-- Filter nav -->
 						<ul id="category" class="filter">
 							<li class="current all"><a href="#">All <span>&nbsp;&nbsp;/</span></a></li>
-							<li class="WebDesign"><a href="#">WebDesign <span>&nbsp;&nbsp;/</span></a></li>
-							<li class="WebDevelopment"><a href="#">WebDevelopment <span>&nbsp;&nbsp;/</span></a></li>
-							<li class="Animation"><a href="#">Animation&nbsp;&nbsp;&nbsp;</a></li>
+							<li class="Web"><a href="#">Web <span>&nbsp;&nbsp;/</span></a></li>
+							<li class="C"><a href="#">C/C++ <span>&nbsp;&nbsp;/</span></a></li>
+							<li class="Python"><a href="#">Python <span>&nbsp;&nbsp;/</span></a></li>
+                            <li class="Other"><a href="#">Others&nbsp;&nbsp;&nbsp;</a></li>
 						</ul>
 								<!-- End filter nav -->
 								
 									<!-- Works list -->
 									<section id="works">
 										<ul id="items" class="portfolio">
-									<li data-id="id-1" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im1.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
-									<li data-id="id-2" data-type="WebDevelopment" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im2.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdevelopment</span></h3></li>
-									<li data-id="id-3" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im3.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
-									<li data-id="id-4" data-type="WebDevelopment" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im4.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdevelopment</span></h3></li>
-									<li data-id="id-9" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im5.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
-									<li data-id="id-10" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im6.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
-									<li data-id="id-11" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im7.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
-								   <li data-id="id-12" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im8.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
-								   <li data-id="id-13" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im9.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
-								   <li data-id="id-14" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im10.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
+									<li data-id="id-1" data-type="C" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im1.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In C/C++</span></h3></li>
+									<li data-id="id-2" data-type="Web" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im2.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Web</span></h3></li>
+									<li data-id="id-3" data-type="Python" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im3.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Python</span></h3></li>
+									<li data-id="id-4" data-type="Web" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im4.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Web</span></h3></li>
+									<li data-id="id-5" data-type="Other" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im5.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Others</span></h3></li>
+									<li data-id="id-6" data-type="C" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im6.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In C/C++</span></h3></li>
+									<li data-id="id-7" data-type="Other" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im7.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Others</span></h3></li>
+								   <li data-id="id-8" data-type="Web" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im8.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Web</span></h3></li>
+								   <li data-id="id-9" data-type="C" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im9.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In C/C++</span></h3></li>
+								   <li data-id="id-10" data-type="Other" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im10.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Others</span></h3></li>
 										</ul>
 									</section>
 									<!-- End Works list -->
+                        <br /><br />
+                        <h1>/ Project List</h1>
+                        <p>1.sadas</p>
 		</article>
 			<!--End portfolio Tab -->
 	    <article id="skills" class="clearfix"> 
@@ -407,10 +439,18 @@ $('#myphoto').attr('src','images/img.png');
 		<article id="other" class="clearfix">
 					<h1>/ Travel</h1>
 					<!-- Blog post -->
-					
-								
-								
-
+					<div class="portfolio"><a class="folio" href="images/worldmap.png"><img style="width:100%" src="images/worldmap.png" /></a></div>
+                    <br />
+                    <p>Red dots in the map shows the places I went.</p>
+                    <br />
+                    <h1>/ TODO List</h1>
+                    <p>Courses and exams for summer term</p>
+                    <p>Learn Java</p>
+					<p>Memorize GRE Vocabulary</p>
+                    <br /><br />
+                    <h1>/ Wish List</h1>
+                    <p>Mac Pro</p>
+                    <br /><br />
 		</article>
 			<!--End blog Tab-->
 			
