@@ -652,7 +652,7 @@ ul li.item {margin-right: 3px;padding: 5px 2px 14px;}
 /* Footer */
 footer p {margin-left: 395px;}
 
-
+}
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 /* Wrapper style */		
@@ -685,7 +685,7 @@ span.plus {left: 154px;top:79px;}
 span.border { left: 51px;top: 165px;width: 90px;}
 #category li #animated-line{display:none;}
 
-
+}
 
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
@@ -726,7 +726,7 @@ span.border {top: 179px;left:58px;}
 span.plus {left:180px;}
 ul#category {padding-left:0;}
 
-
+}
 
 /*End media queries*/
 /*-------------------------------------------------------------------------*/
