@@ -1,175 +1,427 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jeffery Zhao</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- Css styles -->
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" />
 
-	<title>Jeffery Zhao</title>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300" />
+<!-- JavaScript lib -->
+<script src="lib/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="lib/jquery.easytabs.min.js" type="text/javascript"></script>
+<script src="lib/jquery.quicksand.js" type="text/javascript"></script>
+<script src="lib/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="lib/jquery.poshytip.min.js" type="text/javascript"></script>
+<script src="lib/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
+<script src="lib/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<script src="lib/jquery.gmap.min.js" type="text/javascript"></script>
+<script src="lib/jquery.validate.js" type="text/javascript"></script>
+<script src="lib/custom.js" type="text/javascript"></script>
 
-	<meta name="viewport" content="user-scalable=no, width=device-width">
-    <link rel="shortcut icon" href="../favicon.ico">
-	<link rel="stylesheet" href="main.css">
+<!--[if lt IE 9]>
+<script src="../html5.js"></script>
+<![endif]-->
+
+
+
+<!--[if lt IE 8]>
+<style>
+/* For IE < 8 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+</style>
+<![endif]-->  
 
 </head>
 <body>
-<header>
-	<h1>Jeffery Zhao</h1>
+
+	<!--Page Wrraper-->
+	<div id="wrapper" class="clearfix">	
+<!--Page Header-->
+<header id="header" class="clearfix">
+	<figure id="img"><a id="photolink" href="javascript: change1();" title="Not Serious Enough?"><img id="myphoto" src="images/img.png" alt="" /></a>
+    <hgroup>
+		<h1>Jeffery Zhao</h1>
+		<h2>Software Developer</h2>
+	</hgroup></figure>
+	<nav id="mainNav">
+			<ul class="tabs clearfix">
+				<li><a class="tab-about" href="#about">About</a></li>
+                <li><a class="tab-experience" href="#experience">Experience</a></li>
+				<li><a class="tab-portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a class="tab-skills" href="#skills">Skills</a></li>
+                <li><a class="tab-milestones" href="#milestones">Milestones</a></li>
+                <li><a class="tab-links" href="#links">Links</a></li>
+				<li><a class="tab-other" href="#other">Other</a></li>
+			</ul>
+		</nav>	
 </header>
-<div id="main">
-	<h2>Introduction</h2>
-		<p>I'm Zeyu Zhao, you can call me Jeffery for short.</p>
-		<p>I'm a student majoring in computing science.</p>
-        <p>You can also view my homepage in [<a href="../zh-cn/" class="zh-cn">中文</a>]</p>
-    <h2>Education</h2>
-        <p>Current: Simon Fraser University, Canada (Dual Degree Program), BSc</p>
-        <p>2012-2014: Zhejiang University, P.R.China (Dual Degree Program), BE</p>
-    <h2>Links</h2>
-        <p><span class="links">Github:</span><a href="https://github.com/zeruniverse">zeruniverse</a></p>
-        <p><span class="links">E-mail:</span><a href="mailto:i@zzeyu.com">i@zzeyu.com</a></p>
-        <p><span class="links">Twitter:</span><a href="https://twitter.com/zzy8200">Jeffery ZHAO</a></p>
-        <p><span class="links">Instagram:</span><a href="https://instagram.com/zzy8200">zzy8200</a></p>
-        <p><span class="links">Tech Blog:</span><a href="http://blog.zzeyu.com">ZerUniverse</a></p>
-        <p><span class="links">Blog:</span><a href="http://rainaudience.net" class="zh-cn">听雨人</a><span class="hidemobi"> (Simplified Chinese)</span></p>
-    <h2>Resume</h2>
-        <p><a href="../2015-06-01_web.pdf">Download PDF</a> (Updated on June 1)<!--Please send me an E-mail, I'll be happy to send you my resume.--></p>
-    <h2>Selected Projects</h2>
-        <p>Personal & Open Source Project</p>
-        <ul>
-        <li class="sublist"><a href="https://github.com/zeruniverse/QQParking">QQParking</a> (Python): A chatting robot on QQ</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/QQRobot">QQRobot</a> (Python): Similar to above one but support group chatting</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/GnomeQQ">GnomeQQ</a> (Python, still working on): An unofficial QQ client in Gnome</li>
-        <li class="sublist"><a href="http://pw.zzeyu.com/">Password Manager</a> (PHP/JavaScript): Generate random password and keep it safe</li>
-        <li class="sublist"><a href="http://talk.zzeyu.com/">Talk</a> (PHP/JavaScript): For secure communication, client-side encryption and decryption are applied</li>
-        <li class="sublist"><a href="http://box.zzeyu.com/">BOX</a> (PHP): Simply sharing files without any accounts</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/semitransparent-wordpress-theme">Transparent theme for WordPress</a> (CSS3)</li>
-        </ul>
-        <p>Research/Work Project</p>
-        <ul>
-        <li class="sublist">Company Management System (Finished): Help manage the whole company (such as sell, salary, human resources...)</li>
-        <li class="sublist">SFU Used Books (Currently Working On): Sell/Buy used books</li>
-        <li class="sublist">Reinforcement Learning on NHL Data (Currently Working On): Predict the game result based on learning</li>
-        </ul>
-        <p>Course Project</p>
-        <ul>
-        <li class="sublist"><a href="https://github.com/zeruniverse/Gesture_Recognition">Gesture Recognition</a> (MFC/OpenCV): Play "Rock, Scissors and Paper" with computer</li>
-        <li class="sublist">Sensor Network (C/Embedded): collect environment data from sensor and display them on website.</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/generator_consumer_simulation">MultiThreading</a> (C/Linux): Simulate generator and consumer problem</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/EvilCastle_Console-Game">Evil Castle</a> (C++/VC++): A game</li>
-        <li class="sublist">Magic TD (C++/VC++/Cocos 2d): A tower defence game with GUI</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/tc_scientific_calculator">Scientific Calculator</a> (C): Implement GUI with C (Intel 8086)</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/pipelined_CPU">Pipelined CPU</a> (Verilog): Implement Pipelined CPU in hardware level</li>
-        <li class="sublist"><a href="https://github.com/zeruniverse/LibraryManageSystem-Web">Library Management System</a> (PHP/MySQL): Web based library management system</li>  
-        </ul>
-    <h2>Skill Tree</h2>
-        <p>Programming Language</p>
-        <ul>
-        <li class="sublist">C/C++, Object Oriented Programming</li>
-        <li class="sublist">PHP/MySQL</li>
-        <li class="sublist">HTML/Javascript/CSS</li>
-        <li class="sublist">Python</li>
-        <li class="sublist">MATLAB</li>
-        <li class="sublist">Markdown</li>
-        </ul>
-        <p>Operating System</p>
-        <ul>
-        <li class="sublist">CentOS</li>
-        <li class="sublist">ArchLinux</li>
-        <li class="sublist">Microsoft Windows</li>
-        <li class="sublist">OpenSUSE</li>
-        <li class="sublist">Ubuntu</li>
-        </ul>
-        <p>IDE</p>
-        <ul>
-        <li class="sublist">Vim</li>
-        <li class="sublist">Microsoft Visual Studio</li>
-        <li class="sublist">Dream Weaver</li>
-        </ul>
-        <p>Version Control</p>
-        <ul>
-        <li class="sublist">Git</li>
-        <li class="sublist">SVN</li>
-        </ul>
-        <p>Computer Science Related</p>
-        <ul>
-        <li class="sublist">Excellent Mathematical Ability</li>
-        <li class="sublist">Algorithm</li>
-        <li class="sublist">Computer Vision</li>
-        <li class="sublist">Database</li>
-        <li class="sublist">Data Mining (with Weka)</li>
-        </ul>
-        <p>Software</p>
-        <ul>
-        <li class="sublist">Microsoft Office</li>
-        <li class="sublist">Adobe Premiere</li>
-        <li class="sublist">Adobe Photoshop</li>
-        <li class="sublist">Adobe After Effects</li>
-        <li class="sublist">Adobe Audition</li>
-        <li class="sublist">Corel VideoStudio</li>
-        <li class="sublist">XMind</li>
-        </ul>
-        <p>Transferable Skills</p>
-        <ul>
-        <li class="sublist">Ability to Plan</li>
-        <li class="sublist">Meet Deadline</li>
-        <li class="sublist">Quick Self-learning</li>
-        <li class="sublist">Information Collection</li>
-        <li class="sublist">Open Minded</li>
-        <li class="sublist">Leadership</li>
-        </ul>
-        <p>Other</p>
-        <ul>
-        <li class="sublist">Driving</li>
-        <li class="sublist">Photography</li>
-        <li class="sublist">Piano</li>
-        </ul>
-    <h2>Achievement Board</h2>
-        <ul>
-        <li>First Course with Grade Point 5.0/5.0 (C Progamming Language, 2012)</li>
-        <li>Star Member of Student Union (Zhejiang University, 2012)</li>
-        <li>University Mathematics Contest of Zhejiang Province (2nd Prize, 2012)</li>
-        <li>University Physics Contest of Zhejiang Province (2nd Prize, 2012)</li>
-        <li>Academic Excellence Scholarship (First class, 2012 & 2013)</li>
-        <li>Mathematics Modeling Contest of Zhejiang University (14th Place, 2013)</li>
-        <li>First Course with Overall Grade 100/100 (Database Concept, 2013)</li>
-        <li>DDP Entrance Scholarship with Amount $10000CAD (2013)</li>
-        <li>Student Leadership Award (Zhejiang University, 2013)</li>
-        <li>National Scholarship of P.R.China (Top 2%, 2014, Zhejiang University)</li>
-        <li>Outstanding Student Award (Zhejiang University, 2014)</li>
-        <li>ACM/ICPC Northwest (America) Regional (17th place, 2014)</li>
-        <li>First Course with Final Grade A+ (Artificial Intelligence, SFU, 2014)</li>
-        <li>CGPA Above 3.5/4.33 (SFU, 2014)</li>
-        <li>Start Research Life (Work as Research Assistant) (SFU, 2015)</li>
-        <li>SFU Winter Programming Contest (5th Place, SFU, 2015)</li>
-        <li>CGPA Above 4.0/4.33 (SFU, 2015)</li>
-        <li>Start Mathematics Minor (SFU, 2015)</li>
-        <li>Term GPA 4.33/4.33 (SFU, Term: Spring 2015)</li>
-        </ul>
-        <p>More Coming Soon...</p>
-    <h2>Interests</h2>
-        <p>Music (mature piano player)</p>
-        <p>Travelling</p>
-        <p>Poker</p>
-        <p>Watching anime</p>
-        <p>Any ball games</p>
-    <div class="comment">
-        <p class="commentsign">/*</p>
-        <p>TO DO LIST</p>
-        <p>==========</p>
-        <p>Courses and exams</p>
-        <p>Learn Java</p>
-        <p>Memorize GRE Vocabulary</p>
-        <p class="commentsign">*/</p>
-    </div>
-</div>
-        <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?c34109a488e1039560a18c48d0bc71e7";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
+<script type="text/javascript">
+function change1()
+{
+$('#photolink').attr('href','javascript: change2();');
+$('#photolink').attr('title','Not Cool Enough?');
+$('#myphoto').attr('src','images/img0.png');
+}
+function change2()
+{
+$('#photolink').attr('title','Click to Go Back');
+$('#photolink').attr('href','javascript: change3();');
+$('#myphoto').attr('src','images/img1.png');
+}
+function change3()
+{
+$('#photolink').attr('title','Not Serious Enough?');
+$('#photolink').attr('href','javascript: change1();');
+$('#myphoto').attr('src','images/img.png');
+}
 </script>
+<!--End Page Header-->
+
+
+
+<!-- Tabs Container-->
+<section id="tabsContainer" class="clearfix">
+	<!--Inner-->
+	<div id="innerBg">  
+		
+			<!--About Tab-->
+		<article id="about" class="clearfix">
+			<!-- Introduction -->
+			<section id="introduction" class="clearfix">
+				<h1>/ About Me</h1>
+				<p>
+                I'm a student majoring in computing science. I've completed two years of my university life in Zhejiang University, P.R.China and now I'm in Simon Fraser University for rest of my journey to get graduated.
+</p><br /><p>
+                I'm interested in trying all new things, especially in digital world. Thus, I always get passionate about creating new software. I do agree that trying to fix bugs is suffering but nothing can be more satisfying than seeing my own software successfully run on my computer.
+</p><br /><p>
+                Additionally, I love travelling and almost all sports. These two things make me bright and energetic. I'm also a mature piano player with preference of classical music.
+           
+                </p>
+				<p><br />点击<a href="http://zzeyu.com/zh-cn/">这里</a>切换为简体中文。<br /></p>
+				<ul class="info">
+					<li><span>Official Name</span> : Zeyu Zhao</li>
+					<li><span>Date of Birth</span> : Feb. 7, 1994</li>
+					<li><span>Location</span> : Vancouver, Canada</li>
+					</ul>
+					<ul class="info">
+						<li><span>Email</span> : i@zzeyu.com</li>
+						<li><span>GitHub</span> : zeruniverse</li>
+						<li><span>Website</span> : http://zzeyu.com</li>
+						</ul>
+                
+				</section>
+				<!-- End introduction -->
+			
+					<!-- News -->
+					<section id="news">
+						<h1>/ News</h1>
+						<h4>+ I'll be working in Arista Network from this September to this December.</h4>
+                        <br />
+					</section>
+							<!-- End news --> 
+							
+					<!-- Resume -->  
+					<section id="resume">
+					<h1>/ Resume</h1>
+                    <p>Please <a href="resume/" target="_blank">click here</a> to view my online resume. </p>
+                    <br />
+                    <p>Please note this will open a new window/tab on your web browser and you need allow this site to open new windows.</p>
+					<br />
+					</section>
+					<!-- End resume -->
+				    <a class="vcardButton" href="resume_web.pdf" download="Zeyu_Zhao.pdf">Download PDF version</a>
+				<!-- End About Tab-->
+			</article>
+			<!--Portfolio Tab-->
+         <article id="experience" class="clearfix">
+				<h1>/ Education</h1>
+			<p>
+                I enrolled in <span style="font-weight:bold;">Dual Degree Program</span> cooperated by Zhejiang University, P.R.China and Simon Fraser University, Canada. Therefore, I have my undergraduate life in two universities and two countries.
+			<br /><br /></p>
+			<p>
+			<span style="font-weight:bold;">2014-Current</span>: Simon Fraser University, Canada (Dual Degree Program), <span style="font-weight:bold;">BSc</span>
+			
+			</p>
+			<p>
+			<span style="font-weight:bold;">2012-Current</span>: Zhejiang University, P.R.China (Dual Degree Program), <span style="font-weight:bold;">BEng</span>
+			<br /><br /><br />
+			</p>
+			
+			<h1>/ Research Experience</h1>
+			<p>
+                I worked part-time as research assistant in <span style="font-weight:bold;">Computational Logic Lab</span>, SFU. I worked with projects related to machine learning and data mining.
+				<br /><br />
+			</p>
+			<p>
+                <span style="font-weight:bold;">Publications:</span>
+			</p>
+			<p style="margin-left:15px;">
+				<span style="font-style:italic;">What is the Value of an Action in Ice Hockey? Q-Learning for the NHL</span><br />
+				Oliver Schulte, <span style="font-weight:bold;">Zeyu Zhao</span> and Kurt Routley<br />
+				MLSA 2015
+		    </p>
+			<br /><br />
+			<h1>/ Work Experience</h1>
+			<p>
+			<span style="font-weight:bold;">Research Assistant</span><br />
+			Simon Fraser University, with prof. Oliver Schulte<br />
+			<span style="font-style:italic;">Jan. 2015 - Current</span><br />
+			</p></article>
+			<!--Portfolio Tab-->
+		<article id="portfolio" class="clearfix"> 
+			<!-- Introduction -->
+					<h1>/ My Project</h1>
+					<p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+					<!-- End introduction --> 
+					          
+					
+						<!-- Filter nav -->
+						<ul id="category" class="filter">
+							<li class="current all"><a href="#">All <span>&nbsp;&nbsp;/</span></a></li>
+							<li class="WebDesign"><a href="#">WebDesign <span>&nbsp;&nbsp;/</span></a></li>
+							<li class="WebDevelopment"><a href="#">WebDevelopment <span>&nbsp;&nbsp;/</span></a></li>
+							<li class="Animation"><a href="#">Animation&nbsp;&nbsp;&nbsp;</a></li>
+						</ul>
+								<!-- End filter nav -->
+								
+									<!-- Works list -->
+									<section id="works">
+										<ul id="items" class="portfolio">
+									<li data-id="id-1" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im1.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
+									<li data-id="id-2" data-type="WebDevelopment" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im2.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdevelopment</span></h3></li>
+									<li data-id="id-3" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im3.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
+									<li data-id="id-4" data-type="WebDevelopment" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im4.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdevelopment</span></h3></li>
+									<li data-id="id-9" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im5.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
+									<li data-id="id-10" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im6.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
+									<li data-id="id-11" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im7.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Webdesign</span></h3></li>
+								   <li data-id="id-12" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im8.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
+								   <li data-id="id-13" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im9.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
+								   <li data-id="id-14" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im10.jpg" alt="" /><span class="border"></span><h3>Project title<span> / In Animation</span></h3></li>
+										</ul>
+									</section>
+									<!-- End Works list -->
+		</article>
+			<!--End portfolio Tab -->
+	    <article id="skills" class="clearfix"> 
+            <section id="introduction" class="clearfix">
+				<h1>/ Programming Language</h1>
+				<ul class="info">
+					<li>C/C++</li>
+					<li>PHP</li>
+					<li>MySQL</li>
+                    <li>MATLAB</li>
+					</ul>
+					
+					<ul class="info">
+						<li>Object Oriented Programming</li>
+						<li>HTML/JavaScript/CSS</li>
+						<li>Python</li>
+                        <li>Markdown</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Operating System</h1>
+				<ul class="info">
+					<li>CentOS</li>
+					<li>ArchLinux</li>
+					<li>Microsoft Windows</li>
+					</ul>
+					
+					<ul class="info">
+						<li>OpenSUSE</li>
+						<li>Ubuntu</li>
+						<li>OS X</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ IDE</h1>
+				<ul class="info">
+					<li>Vim</li>
+					<li>Microsoft Visual Studio</li>
+					</ul>
+					
+					<ul class="info">
+						<li>Dream Weaver</li>
+						<li>Eclipse</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Version Control</h1>
+				<ul class="info">
+					<li>SVN</li>
+					</ul>
+					
+					<ul class="info">
+						<li>Git</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Computer Science Related</h1>
+				<ul class="info">
+					<li>Mathematical Ability</li>
+                    <li>Algorithm</li>
+                    <li>Computer Vision</li>
+				</ul>
+					
+					<ul class="info">
+						<li>Database</li>
+                        <li>Networking</li>
+                        <li>Data Mining</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Software</h1>
+				<ul class="info">
+					<li>Microsoft Office</li>
+                    <li>Adobe Premiere</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe After Effects</li>
+				</ul>
+					
+					<ul class="info">
+						<li>Adobe Audition</li>
+                        <li>Corel VideoStudio</li>
+                        <li>XMind</li>
+                        <li>iWork</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Transferable Skills</h1>
+				<ul class="info">
+					<li>Ability to Plan</li>
+                    <li>Meet Deadline</li>
+                    <li>Quick Self-learning</li>
+				</ul>
+					
+					<ul class="info">
+						<li>Information Collection</li>
+                        <li>Open Minded</li>
+                        <li>Leadership</li>
+					</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Other</h1>
+				<ul class="info">
+					<li>Driving</li>
+                    <li>Photography</li>
+				</ul>
+					
+					<ul class="info">
+						<li>Piano</li>
+                        <li>Know How to Google</li>
+					</ul>
+			</section>
+        </article>
+        <article id="milestones" class="clearfix"> 
+            <section id="introduction" class="clearfix">
+				<h1>/ 2015</h1>
+				<ul class="info">
+					<li><span>Term GPA 4.33/4.33 (SFU, Term: Spring)</span></li>
+					<li>Start Mathematics Minor (SFU)</li>
+					<li><span>CGPA Above 4.0/4.33 (SFU, At the end of Spring Term)</span></li>
+                    <li>SFU Winter Programming Contest (5th Place, SFU)</li>
+					<li><span>Start Research Life (Work as Research Assistant) (SFU)</span></li>
+		
+			    </ul>
+			</section>
+			<section id="introduction" class="clearfix">
+				<h1>/ 2014</h1>
+				<ul class="info">
+					<li>CGPA Above 3.5/4.33 (SFU, At the end of Fall Term)</li>
+					<li>First Course with Final Grade A+ (Artificial Intelligence, SFU)</li>
+					<li>ACM/ICPC Northwest (America) Regional (17th place)</li>
+                    <li>Outstanding Student Award (Zhejiang University)</li>
+					<li><span>National Scholarship of P.R.China (Top 2% Zhejiang University)</span></li>
+					<li>Student Leadership Award (Zhejiang University)</li>
+					<li>First Course with Overall Grade 100/100 (Database Concept, Zhejiang University)</li>
+					<li><span>Academic Excellence Scholarship of Academic Year 2013 (1st class, Zhejiang University)</span></li>
+			    </ul>
+			</section>
+			<section id="introduction" class="clearfix">
+				<h1>/ 2013</h1>
+				<ul class="info">
+					<li><span>DDP Entrance Scholarship with Amount $10,000 CAD</span></li>
+					<li>Mathematics Modeling Contest of Zhejiang University (14th Place)</li>
+					<li><span>Academic Excellence Scholarship of Academic Year 2012 (1st class, Zhejiang University)</span></li>
+                    <li>University Physics Contest of Zhejiang Province (2nd Prize)</li>
+					<li><span>Star Member of Student Union of Academic Year 2012 (Zhejiang University)</span></li>
+			    </ul>
+			</section>
+			<section id="introduction" class="clearfix">
+				<h1>/ 2012</h1>
+				<ul class="info">
+					<li>University Mathematics Contest of Zhejiang Province (2nd Prize)</li>
+					<li>First Course with Grade Point 5.0/5.0 (C Progamming Language)</li>
+					<li>Start volunteering in Academic & Cultural department in Student Union (Zhejiang University)</li>
+                    <li><span>Get admitted into Zhejiang University</span></li>
+					<li><span>Graduate from Ninghai High School</span></li>
+			    </ul>
+			</section>
+			<section id="introduction" class="clearfix">
+				<h1>/ 2009</h1>
+				<ul class="info">
+					<li>Get admitted into Ninghai High School</li>
+			    </ul>
+			</section>
+			<section id="introduction" class="clearfix">
+				<h1>/ 1994</h1>
+				<ul class="info">
+					<li><span>Born</span></li>
+			    </ul>
+			</section>
+        </article>
+        <article id="links" class="clearfix"> 
+			<section id="introduction" class="clearfix">
+				<h1>/ Technical</h1>
+				<ul class="info">
+					<li><span>GitHub:</span>&nbsp;&nbsp;&nbsp;<a href="https://github.com/zeruniverse">github.com/zeruniverse</a></li>
+					<li><span>Tech Blog:</span>&nbsp;&nbsp;&nbsp;<a href="http://blog.zzeyu.com/">ZerUniverse</a></li>
+					<li><span>LinkedIn:</span>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/zzeyu">Zeyu Zhao</a></li>
+				
+				</ul>
+			</section>
+            <section id="introduction" class="clearfix">
+				<h1>/ Social</h1>
+				<ul class="info">
+					<li><span>Facebook:</span>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/zzy8200">Jeffery Zhao</a></li>
+					<li><span>Twitter:</span>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/zzy8200">Jeffery Zhao</a></li>
+					<li><span>Instagram:</span>&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/zzy8200">zzy8200</a></li><br />
+					<li>Please refer to <a href="http://zzeyu.com/zh-cn/">my site in Simplified Chinese</a> for all social platforms in Chinese</li>
+				</ul>
+			</section>
+			<section id="introduction" class="clearfix">
+				<h1>/ Contact</h1>
+				<ul class="info">
+					<li><span>E-mail:</span>&nbsp;&nbsp;&nbsp;<a href="mailto:i@zzeyu.com">i@zzeyu.com</a></li>
+					<br />
+					<li><span>If you don't receive any response in 24 hours, please resend your email.</span></li>					
+				</ul>
+			</section>
+        </article>
+			<!--Blog Tab-->	
+		<article id="other" class="clearfix">
+					<h1>/ Travel</h1>
+					<!-- Blog post -->
+					
+								
+								
+
+		</article>
+			<!--End blog Tab-->
+			
+		
+</div>
+<!--End Inner-->
+</section>
+<!-- End tabs Container-->
+</div>
+<!--End Page Wrapper-->
+
+
 </body>
 </html>
