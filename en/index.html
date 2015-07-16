@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <!-- Css styles -->
 <link rel="stylesheet" href="css/main.css" />
-<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" />
+<link rel="shortcut icon" href="../favicon.ico">
 
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300" />
 <!-- JavaScript lib -->
@@ -15,11 +15,11 @@
 <script src="lib/jquery.quicksand.js" type="text/javascript"></script>
 <script src="lib/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="lib/jquery.poshytip.min.js" type="text/javascript"></script>
-<script src="lib/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
 <script src="lib/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
 <script src="lib/jquery.validate.js" type="text/javascript"></script>
 <script src="lib/custom.js" type="text/javascript"></script>
-
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 <!--[if lt IE 9]>
 <script src="../html5.js"></script>
 <![endif]-->
@@ -174,8 +174,8 @@ $('#myphoto').attr('src','images/img.png');
 			<!--Portfolio Tab-->
 		<article id="portfolio" class="clearfix"> 
 			<!-- Introduction -->
-					<h1>/ Portfolio</h1>
-                    <div id="projectlist" style="display:none;">
+					<h1>/ My Projects</h1>
+          <div id="projectlist" style="display:none;">
         <p>Personal & Open Source Project</p>
         <ul style="list-style-type:disc;">
         <li class="sublist"><a href="https://github.com/zeruniverse/QQParking">QQParking</a> (Python): A chatting robot on QQ</li>
@@ -204,8 +204,8 @@ $('#myphoto').attr('src','images/img.png');
         <li class="sublist"><a href="https://github.com/zeruniverse/LibraryManageSystem-Web">Library Management System</a> (PHP/MySQL): Web based library management system</li>  
         </ul>
         </div>
-					<p>Here're some selected projects I completed. Source code for some of them are accessible on my <a href="https://github.com/zeruniverse">GitHub</a> account. You can also <span class="portfolio"><a class="folio" href="#projectlist">click here</a></span> to see a list of my projects</p> 
-					<!-- End introduction --> 
+					<p>Here're some selected projects I completed. Source code for some of them are accessible on my <a href="https://github.com/zeruniverse">GitHub</a> account. You can also <a class="fancyboxx" href="#projectlist">click here</a> to see a list of my projects</p> 
+					 <!--End introduction --> 
 					          
 					
 						<!-- Filter nav -->
@@ -234,9 +234,6 @@ $('#myphoto').attr('src','images/img.png');
 										</ul>
 									</section>
 									<!-- End Works list -->
-                        <br /><br />
-                        <h1>/ Project List</h1>
-                        <p>1.sadas</p>
 		</article>
 			<!--End portfolio Tab -->
 	    <article id="skills" class="clearfix"> 
@@ -439,7 +436,7 @@ $('#myphoto').attr('src','images/img.png');
 		<article id="other" class="clearfix">
 					<h1>/ Travel</h1>
 					<!-- Blog post -->
-					<div class="portfolio"><a class="folio" href="images/worldmap.png"><img style="width:100%" src="images/worldmap.png" /></a></div>
+					<a class="fancyboxx" href="images/worldmap.png"><img style="width:100%" src="images/worldmap.png" /></a>
                     <br />
                     <p>Red dots in the map shows the places I went.</p>
                     <br />

@@ -65,13 +65,14 @@ $(document).ready(function(){
 			 
 //--------------------------------- Reinitilaizing fancybox for the new cloned elements of the portfolio --------------------------------//
 			
-			$('.portfolio a.folio').fancybox({
+			$('.portfolio a.folio, .fancyboxx').fancybox({
 							'overlayShow'	: true,
 							'opacity'		: true,
 							'transitionIn'	: 'elastic',
 							'transitionOut'	: 'none',
 							'overlayOpacity'	:   0.8
 						});
+
 			
 //--------------------------------- End reinitilaizing fancybox for the new cloned elements of the portfolio ----------------------------//
 			
