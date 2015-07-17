@@ -42,7 +42,7 @@
 	<div id="wrapper" class="clearfix">	
 <!--Page Header-->
 <header id="header" class="clearfix">
-	<figure id="img"><a id="photolink" href="javascript: change1();" title="Not Serious Enough?"><img id="myphoto" src="images/img.png" alt="" /></a>
+	<figure id="img"><a id="photolink" href="javascript: change1();" title="Not Serious Enough?"><img id="myphoto" src="../images/img.png" alt="" /></a>
     <hgroup>
 		<h1>Jeffery Zhao</h1>
 		<h2>Software Developer</h2>
@@ -64,19 +64,19 @@ function change1()
 {
 $('#photolink').attr('href','javascript: change2();');
 $('#photolink').attr('title','Not Cool Enough?');
-$('#myphoto').attr('src','images/img0.png');
+$('#myphoto').attr('src','../images/img0.png');
 }
 function change2()
 {
 $('#photolink').attr('title','Click to Go Back');
 $('#photolink').attr('href','javascript: change3();');
-$('#myphoto').attr('src','images/img1.png');
+$('#myphoto').attr('src','../images/img1.png');
 }
 function change3()
 {
 $('#photolink').attr('title','Not Serious Enough?');
 $('#photolink').attr('href','javascript: change1();');
-$('#myphoto').attr('src','images/img.png');
+$('#myphoto').attr('src','../images/img.png');
 }
 </script>
 <!--End Page Header-->
