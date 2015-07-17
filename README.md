@@ -6,6 +6,6 @@ All rights for contents in this repo are reserved.
   
 Corresponding GitHub Pages: http://zzeyu.com  
   
-#TO DO  
+The template of current version website is from http://www.cssmoban.com/  
   
-Finish new version under test/  
+Since the above site does not give proper lisence. I assume it's GNU GPL 3.  
