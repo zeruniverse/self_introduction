@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Redirect...</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<div>You'll be redirected to the right page. <br /><br />
+If you are not redirected shortly, please enable JavaScript in your web browser!<br />
+您的浏览器将自动跳转，请在浏览器-设置中允许JavaScript
+
+<br /><br /><br />
+</div>
+<div>
+If you get stuck on this page, click <a href="http://zzeyu.com/en/">here</a> for webpage in English.<br />
+如果您的浏览器无法自动跳转，点击<a href="http://zzeyu.com/zh-cn/">这里</a>进入简体中文页面。<br />
+</div>
+
+<script type="text/javascript">
+var type=navigator.appName
+if (type=="Netscape"){
+var lang = navigator.language
+}
+else{
+var lang = navigator.userLanguage
+}
+
+var lang = lang.substr(0,2)
+
+if (lang == "zh"){
+window.location.href="http://zzeyu.com/zh-cn/"
+}
+else{
+window.location.href="http://zzeyu.com/en/"
+}
+</script>
+</body>
+</html>
