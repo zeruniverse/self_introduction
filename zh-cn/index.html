@@ -40,7 +40,7 @@
 	<div id="wrapper" class="clearfix">	
 <!--Page Header-->
 <header id="header" class="clearfix">
-	<figure id="img"><a id="photolink" href="javascript: change1();" title="点击查看证件照"><img id="myphoto" src="images/img.png" alt="" /></a>
+	<figure id="img"><a id="photolink" href="javascript: change1();" title="点击查看证件照"><img id="myphoto" src="../images/img.png" alt="" /></a>
     <hgroup>
 		<h1>赵泽宇</h1>
 		<h2>软件工程师</h2>
@@ -62,19 +62,19 @@ function change1()
 {
 $('#photolink').attr('href','javascript: change2();');
 $('#photolink').attr('title','不够炫酷?');
-$('#myphoto').attr('src','images/img0.png');
+$('#myphoto').attr('src','../images/img0.png');
 }
 function change2()
 {
 $('#photolink').attr('title','点击返回初始头像');
 $('#photolink').attr('href','javascript: change3();');
-$('#myphoto').attr('src','images/img1.png');
+$('#myphoto').attr('src','../images/img1.png');
 }
 function change3()
 {
 $('#photolink').attr('title','点击查看证件照');
 $('#photolink').attr('href','javascript: change1();');
-$('#myphoto').attr('src','images/img.png');
+$('#myphoto').attr('src','../images/img.png');
 }
 </script>
 <!--End Page Header-->
