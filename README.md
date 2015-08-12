@@ -8,4 +8,6 @@ Corresponding GitHub Pages: http://zzeyu.com
   
 The template of current version website is from http://www.cssmoban.com/  
   
-Since the above site does not give proper lisence. I assume it's GNU GPL 3.  
+Since the above site does not give proper license. I assume it's GNU GPL 3.  
+  
+The framework of this website uses the GNU GPL 3.0 License while the contents uses Creative Commons Attribution-NoDerivatives 4.0 International License
