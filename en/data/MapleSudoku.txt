@@ -1,8 +1,8 @@
 # Zeyu Zhao
 # Nov. 26, 2016
 # Tested in Maple 2016
-# For MATH 343 Course Project
 # Published under License: GNU GPL 3.0
+# Please Open This Text File as MAPLE INPUT
 
 print(`Fast Sudoku Puzzle Generator by Zeyu Zhao`):
 print(`Type: SudokuGen() to generate a random Sudoku puzzle`):
