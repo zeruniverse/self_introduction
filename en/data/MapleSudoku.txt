@@ -63,7 +63,7 @@ RemoveOption:=proc(id,num)
 	return:
 end proc:
 
-#Add avaliable choices of other cells after removing num to cell id.
+#Add avaliable choices of other cells after removing num from cell id.
 AddOption:=proc(id,num)
 	global CurrentAvail:
 	local RC, B, i,listnum:
