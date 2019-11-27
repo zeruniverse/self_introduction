@@ -70,4 +70,13 @@ var data = [
   {name: 'Vail', value: 30, geoCoord:[39.6335721,-106.4303005]},
   {name: 'Denver', value: 30, geoCoord:[39.7230173,-104.9211162]},
   {name: 'Crater Lake', value: 30, geoCoord:[42.9395274,-122.1690505]},
+  {name: 'Lassen', value: 30, geoCoord:[40.4880912,-121.5136848]},
+  {name: 'Yosemite', value: 30, geoCoord:[38.1340257,-121.2071737]},
+  {name: 'Sequoia & Kings Canyon', value: 30, geoCoord:[36.2243655,-118.9706718]},
+  {name: 'Los Angeles', value: 30, geoCoord:[34.0207305,-118.6919319]},
+  {name: 'Death Valley', value: 30, geoCoord:[36.0042653,-117.7557335]},
+  {name: 'Heavenly', value: 30, geoCoord:[38.9548829,-119.9445025]},
+  {name: 'Northstar', value: 30, geoCoord:[39.3686596,-120.0926999]},
+  {name: 'Hanover', value: 30, geoCoord:[43.7148757,-72.2608704]},
+  {name: 'Monterey', value: 30, geoCoord:[36.6110194,-121.9375397]},
 ];
