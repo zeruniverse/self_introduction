@@ -65,4 +65,9 @@ var data = [
   {name: 'Mt. Fuji', value: 30, geoCoord:[35.2575267,138.5556233]},
   {name: 'Fuji', value: 30, geoCoord:[35.2345351,138.544637]},
   {name: 'Tokyo', value: 30, geoCoord:[35.6691074,139.6012929]},
+  {name: 'Denver', value: 30, geoCoord:[39.7230173,-104.9211162]},
+  {name: 'Keystone', value: 30, geoCoord:[39.5945376,-106.0082193]},
+  {name: 'Vail', value: 30, geoCoord:[39.6335721,-106.4303005]},
+  {name: 'Denver', value: 30, geoCoord:[39.7230173,-104.9211162]},
+  {name: 'Crater Lake', value: 30, geoCoord:[42.9395274,-122.1690505]},
 ];
