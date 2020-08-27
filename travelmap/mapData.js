@@ -14,7 +14,6 @@ var data = [
   {name: 'Calgary', value: 30, geoCoord:[51.012782,-114.3543435]},
   {name: 'Banff', value: 30, geoCoord:[51.1769288,-115.603409]},
   {name: 'Yellowknife', value: 30, geoCoord:[62.4747917,-114.5490774]},
-  {name: 'Yosemite', value: 30, geoCoord:[37.8535194,-119.8313094]},
   {name: 'Yellowstone', value: 30, geoCoord:[44.585403,-111.0745316]},
   {name: 'Grand Teton', value: 30, geoCoord:[43.8078298,-110.9687097]},
   {name: 'Jackson', value: 30, geoCoord:[43.9474617,-111.847299]},
