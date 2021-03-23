@@ -113,7 +113,7 @@ var data = [
   {name: 'Grand Targhee', value: 30, geoCoord:[43.7468334,-111.0201163]},
   {name: 'Boise', value: 30, geoCoord:[43.6009692,-116.3739848]},
   {name: 'Sun Valley', value: 30, geoCoord:[43.6725532,-114.4695591]},
-  {name: 'Big Sky', value: 30, geoCoord:[44.1593439,-111.5202969]},
+  {name: 'Big Sky', value: 30, geoCoord:[44.518659,-111.6704807]},
   {name: 'Phoenix', value: 30, geoCoord:[33.6052953,-112.6855567]},
   {name: 'Colorado Springs', value: 30, geoCoord:[38.8758843,-105.0385582]},
   {name: 'Alamosa', value: 30, geoCoord:[37.467509,-105.9167972]},
