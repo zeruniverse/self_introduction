@@ -3,7 +3,7 @@
 // geoCoord:经纬度
 // description:描述文字
 
-var data = [
+var mapData = [
   {name: 'Vancouver', value: 80, geoCoord:[49.248948,-122.984835]},
   {name: 'Victoria', value: 30, geoCoord:[48.459142,-123.377190]},
   {name: 'Whistler', value: 30, geoCoord:[50.1149639,-122.9508361]},
