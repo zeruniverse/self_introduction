@@ -187,4 +187,9 @@ var mapData = [
   {name: 'Portland', value: 30, geoCoord:[43.6669249,-70.3516013]},
   {name: 'Augusta', value: 30, geoCoord:[44.3334106,-69.8007326]},
   {name: 'Acadia National Park', value: 30, geoCoord:[44.319295,-68.4368961]},
+  {name: 'Zhuhai', value: 30, geoCoord:[22.354035,113.6102079]},
+  {name: 'Wuxi', value: 30, geoCoord:[31.5580805,119.9815557]},
+  {name: 'Urumqi', value: 30, geoCoord:[43.821236,87.0204515]},
+  {name: 'Silk Road Ski Resort', value: 30, geoCoord:[43.44181,87.4031216]},
+  {name: 'Tianshan Tianchi Lake', value: 30, geoCoord:[43.8754205,88.1179188]}
 ];
