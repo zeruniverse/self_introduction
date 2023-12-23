@@ -191,5 +191,6 @@ var mapData = [
   {name: 'Wuxi', value: 30, geoCoord:[31.5580805,119.9815557]},
   {name: 'Urumqi', value: 30, geoCoord:[43.821236,87.0204515]},
   {name: 'Silk Road Ski Resort', value: 30, geoCoord:[43.44181,87.4031216]},
-  {name: 'Tianshan Tianchi Lake', value: 30, geoCoord:[43.8754205,88.1179188]}
+  {name: 'Tianshan Tianchi Lake', value: 30, geoCoord:[43.8754205,88.1179188]},
+  {name: 'Xi\'an', value: 30, geoCoord:[34.2589373,108.63687]}
 ];
